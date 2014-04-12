@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 2.8)
+
+add_subdirectory(base64)
+add_subdirectory(json)
+add_subdirectory(kv)
+#add_subdirectory(mariadb)
+#add_subdirectory(redis)
+add_subdirectory(sha1)
+add_subdirectory(sha256)
+#add_subdirectory(sqlite)
+#add_subdirectory(ssls)
+add_subdirectory(websocket)
