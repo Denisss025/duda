@@ -1,0 +1,4 @@
+[DUDA]
+    ServicesRoot ${MONKEY_DEFAULT_LIBDIR}
+    PackagesRoot ${MONKEY_PLUGIN_DIR}/duda/packages
+    DocumentRoot ${MONKEY_PLUGIN_DIR}/duda/htdocs

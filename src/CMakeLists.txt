@@ -30,4 +30,8 @@ set(SRC
 	duda_xtime.c
 )
 
-add_library(monkey-duda ${SRC})
+add_library(monkey-duda-shared SHARED ${SRC})
+add_library(monkey-duda-static STATIC ${SRC})
+
+set_target_properties(monkey-duda-shared PROPERTIES OUTPUT_NAME monkey-duda)
+set_target_properties(monkey-duda-static PROPERTIES OUTPUT_NAME monkey-duda)
